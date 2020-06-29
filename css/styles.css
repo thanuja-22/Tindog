@@ -1,0 +1,171 @@
+body{
+  font-family: 'Montserrat';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat';
+}
+h2
+{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3
+{
+  font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+/* Headings */
+.big-heading
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title
+{
+  background-color: #ff4c68;
+  color:#fff;
+}
+#cta
+{
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  padding: 7% 15%;
+}
+.ctah
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.icon{
+  color:#ef8172;
+  margin-bottom:40px;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+.feature-box{
+  text-align: center;
+}
+.container-fluid
+{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 9%;
+}
+
+
+.fas
+{
+  width: 20%;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+.navbar-item
+{
+  padding:0 18px;
+}
+.nav-link
+{
+  font-size:1.3rem;
+  font-family: 'Montserrat-Light';
+}
+.download-button
+{
+  margin: 5% 3% 5% 1%;
+}
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.titimage
+{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30px;
+  top: 60px;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.test-img{
+  width: 20%;
+  border-radius:100%;
+  margin: 20px;
+}
+#press{
+     background-color: #ef8172;
+     text-align: center;
+     padding-bottom: 3%;
+
+}
+.im
+{
+  width:20%;
+  margin: 20px 20px 15px;
+}
+.butl{
+  padding-right:140px;
+}
+.butr
+{
+  padding-left: 140px;
+}
+#pricing
+{
+  padding:100px;
+  text-align: center;
+}
+.pr-col{
+  padding: 5% 2%;
+}
+#footer
+{
+  padding: 7% 15%;
+  text-align: center;
+}
+.ja
+{
+  margin:1% 5% 3% 5%;
+}
+@media (max-width:1028px)
+{
+  #title
+  {
+   text-align: center;
+  }
+  .titimage
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
